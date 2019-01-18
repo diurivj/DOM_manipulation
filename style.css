@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+section * {
+  margin: 20px;
+}
