@@ -37,7 +37,6 @@ function addULRToWebsite() {
   anchor.innerHTML = '<span>😏 Go to the page</span>'
   websites.appendChild(anchor)
   inputURL[0].value = ''
-  console.log(inputURL)
 }
 
 list.addEventListener('click', e => {
